@@ -1,19 +1,32 @@
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
-# Project title: Volume study in S&P500 index.
+# Project title: Volume study in S&P500 index
 
 Study about how variation in volume over a period, can give us clues about potential sector winners for the next period.
 
-### Instructions
+### Motivation
 
-1. Open the `categoricals` variable we created before.
+There are lot of articles and methods about markets forecast (chart figures, indicators, Elliot waves,..).
 
-```python
-categoricals = data.select_dtypes(np.object)
-categoricals.head()
-```
+This work is about volume trends. By studying variation in volume over a period of time (quarters), we will try to detect where the biggest market players (funds) are putting (or withdrawing) their money. 
 
-2. Plot all the categorical variables with the proper plot. What can you see?
-3. There might be some columns that seem to be redundant, check their values to be sure. What should we do with them?
-4. Plot time variable. Can you extract something from it?
+I assume that big funds trade a big amount of volume, and it is not ease for them to hide when they are changing its portfolio (looking for sectors with better perspectives). It seems to be a good idea to invest in those sectors, and try to beat the market!   
+And of course, take advantage of it!
+
+
+### Sources
+
+Main data file.
+
+https://www.kaggle.com/aleksthegreat/5years-dailystock-quotes
+
+Additional information from Wikipedia (https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
+
+
+### Story
+
+https://public.tableau.com/views/mid-bootcamp_project/Story1?:language=en-US&publish=yes&:display_count=n&:origin=viz_share_link
+
+
+
 
